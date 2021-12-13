@@ -1,3 +1,121 @@
+@font-face {
+  font-family: "satoshiblack_italic";
+  src: url("../public/fonts/satoshi-blackitalic-webfont.woff2") format("woff2"),
+    url("../public/fonts/satoshi-blackitalic-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "satoshiblack";
+  src: url("../public/fonts/satoshi-black-webfont.woff2") format("woff2"),
+    url("../public/fonts/satoshi-black-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "satoshibold_italic";
+  src: url("../public/fonts/satoshi-bolditalic-webfont.woff2") format("woff2"),
+    url("../public/fonts/satoshi-bolditalic-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "satoshibold";
+  src: url("../public/fonts/satoshi-bold-webfont.woff2") format("woff2"),
+    url("../public/fonts/satoshi-bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "satoshimedium_italic";
+  src: url("../public/fonts/satoshi-mediumitalic-webfont.woff2") format("woff2"),
+    url("../public/fonts/satoshi-mediumitalic-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "satoshimedium";
+  src: url("../public/fonts/satoshi-medium-webfont.woff2") format("woff2"),
+    url("../public/fonts/satoshi-medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "satoshiitalic";
+  src: url("../public/fonts/satoshi-italic-webfont.woff2") format("woff2"),
+    url("../public/fonts/satoshi-italic-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "satoshiregular";
+  src: url("../public/fonts/satoshi-regular-webfont.woff2") format("woff2"),
+    url("../public/fonts/satoshi-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "satoshilight_italic";
+  src: url("../public/fonts/satoshi-lightitalic-webfont.woff2") format("woff2"),
+    url("../public/fonts/satoshi-lightitalic-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "satoshilight";
+  src: url("../public/fonts/satoshi-light-webfont.woff2") format("woff2"),
+    url("../public/fonts/satoshi-light-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .h1 {
+    @apply font-title text-6xl mb-6;
+    color: theme("colors.Neutral800");
+  }
+  .h2 {
+  }
+  .h3 {
+  }
+  .h4 {
+  }
+  .h5 {
+  }
+  .h6 {
+  }
+
+  .pSmall {
+  }
+
+  .pDefault {
+  }
+
+  .pLarge {
+  }
+
+  .links {
+  }
+
+  .bq {
+  }
+
+  ul {
+  }
+
+  ol {
+  }
+}
