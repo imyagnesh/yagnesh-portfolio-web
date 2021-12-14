@@ -134,6 +134,7 @@
 
   ul {
     @apply font-body list-disc pl-10;
+    color: theme("colors.Neutral600");
   }
 
   ol {
