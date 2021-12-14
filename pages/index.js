@@ -8,7 +8,8 @@ export default function Home() {
         </div>
         <div className="flex-1">
           <p>WELCOME TO MY WORLD</p>
-          <h1>Hi, I’m Yagnesh Modh</h1>
+          <h1 className="h1">Hi, I’m Yagnesh Modh</h1>
+          <h1 className="h2">Hi, I’m Yagnesh Modh</h1>
         </div>
       </section>
     </main>
