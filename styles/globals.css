@@ -124,13 +124,16 @@
 
   .links {
     @apply font-body text-lg;
+    color: theme("colors.Neutral800");
   }
 
   .bq {
-    @apply bg-Secondary2;
+    @apply font-body text-lg mb-3;
+    color: theme("colors.Neutral800");
   }
 
   ul {
+    @apply font-body list-disc pl-10;
   }
 
   ol {

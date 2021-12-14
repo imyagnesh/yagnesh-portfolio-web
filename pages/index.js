@@ -9,6 +9,11 @@ export default function Home() {
         <div className="flex-1">
           <p>WELCOME TO MY WORLD</p>
           <h1>Hi, I’m Yagnesh Modh</h1>
+          <ul>
+            <li>hello number 1</li>
+            <li>hello number 1</li>
+            <li>hello number 1</li>
+          </ul>
         </div>
       </section>
     </main>
