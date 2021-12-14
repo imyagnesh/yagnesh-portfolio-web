@@ -127,6 +127,7 @@
   }
 
   .bq {
+    @apply bg-Secondary2;
   }
 
   ul {
