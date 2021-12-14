@@ -139,4 +139,23 @@
 
   ol {
   }
+
+  .figure {
+    @apply rounded-lg w-full max-w-full inline-block;
+  }
+
+  .figure-caption {
+    @apply font-body text-center mt-6;
+    color: theme("colors.Neutral500");
+  }
+
+  .button-primary {
+    @apply border-none text-Secondary1 bg-Neutral800 rounded-t-full px-6 py-3 rounded-full;
+  }
+  .button-Default {
+    @apply border-none text-Secondary1 bg-Neutral800 rounded-t-full px-16 py-8 text-lg font-bold rounded-full;
+  }
+  .button-Large {
+    @apply border-none text-Secondary1 bg-Neutral800 rounded-t-full px-20 py-6 text-xl font-bold rounded-full;
+  }
 }
