@@ -88,26 +88,42 @@
     color: theme("colors.Neutral800");
   }
   .h2 {
+    @apply font-title text-5xl mb-4;
+    color: theme("colors.Neutral800");
   }
   .h3 {
+    @apply font-title text-2xl mb-5;
+    color: theme("colors.Neutral800");
   }
   .h4 {
+    @apply font-title text-xl mb-4;
+    color: theme("colors.Neutral800");
   }
   .h5 {
+    @apply font-title text-lg mb-4;
+    color: theme("colors.Neutral800");
   }
   .h6 {
+    @apply font-title text-base mb-2.5;
+    color: theme("colors.Neutral800");
   }
 
   .pSmall {
+    @apply font-body text-lg mb-5;
+    color: theme("colors.Neutral600");
   }
-
   .pDefault {
+    @apply font-body text-lg mb-5;
+    color: theme("colors.Neutral600");
   }
 
   .pLarge {
+    @apply font-body text-2xl mb-5;
+    color: theme("colors.Neutral600");
   }
 
   .links {
+    @apply font-body text-lg;
   }
 
   .bq {
