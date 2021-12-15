@@ -9,7 +9,13 @@ export default function Home() {
         <div className="flex-1">
           <p>WELCOME TO MY WORLD</p>
           <h1>Hi, I’m Yagnesh Modh</h1>
-          <img className="figure" src="" />>
+          <button className="button-primary">Submit</button>
+          <button className="button-Default">Submit</button>
+          <button className="button-Large">Submit</button>
+
+          <button className="button-secondary">Submit</button>
+          <button className="button-sDefault">Submit</button>
+          <button className="button-sLarge">Submit</button>
         </div>
       </section>
     </main>
