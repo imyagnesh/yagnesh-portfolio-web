@@ -10,6 +10,9 @@ export default function Home() {
           <p>WELCOME TO MY WORLD</p>
           <h1 className="h1">Hi, I’m Yagnesh Modh</h1>
           <h1 className="h2">Hi, I’m Yagnesh Modh</h1>
+          <button className="button-primary">Submit</button>
+          <button className="button-Default">Submit</button>
+          <button className="button-Large">Submit</button>
         </div>
       </section>
     </main>
