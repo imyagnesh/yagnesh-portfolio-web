@@ -151,13 +151,27 @@
   }
 
   .button-primary {
-    @apply border-none text-Secondary1 bg-Neutral800 rounded-t-full px-6 py-3 rounded-full hover:bg-Secondary1 hover:text-Neutral800;
+    @apply border-none text-Secondary1 bg-Neutral800 rounded-t-full px-6 py-3 rounded-full shadow-sm
+    hover:bg-Secondary1 hover:text-Neutral800;
   }
   .button-Default {
-    @apply border-none text-Secondary1 bg-Neutral800 rounded-t-full px-16 py-8 text-lg font-bold rounded-full;
+    @apply border-none text-Secondary1 bg-Neutral800 rounded-t-full px-16 py-8 text-lg font-bold rounded-full
+  shadow-sm hover:bg-Secondary1 hover:text-Neutral800;
   }
   .button-Large {
-    @apply border-none text-Secondary1 bg-Neutral800 rounded-t-full px-20 py-6 text-xl font-bold rounded-full;
+    @apply border-none text-Secondary1 bg-Neutral800 rounded-t-full px-20 py-6 text-xl font-bold rounded-full
+  shadow-sm hover:bg-Secondary1 hover:text-Neutral800;
+  }
+  .button-secondary {
+    @apply border-none text-Neutral700 bg-Neutral200 rounded-t-full px-6 py-3 rounded-full shadow-sm hover:bg-Neutral700 hover:text-Neutral200;
+  }
+  .button-sDefault {
+    @apply border-none text-Neutral700 bg-Neutral200 rounded-t-full px-16 py-8 text-lg font-bold rounded-full
+  shadow-sm hover:bg-Neutral700 hover:text-Neutral200;
+  }
+  .button-sLarge {
+    @apply border-none text-Neutral700 bg-Neutral200 rounded-t-full px-20 py-6 text-xl font-bold rounded-full
+  shadow-sm hover:bg-Neutral700 hover:text-Neutral200;
   }
   
 
